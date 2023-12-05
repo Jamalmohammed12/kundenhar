@@ -13,7 +13,24 @@ grid-template-areas:
 "ft ft ft ft";
 
 
+}
 
+header{
+    grid-area: hd;
+    background-color: blue;
+}
 
+nav{
+    grid-area: nv;
+    background-color: blueviolet;
+}
 
+section{
+    grid-area: sc;
+    background-color: yellow;
+}
+
+footer{
+    grid-area: ft;
+    background-color: green;
 }
